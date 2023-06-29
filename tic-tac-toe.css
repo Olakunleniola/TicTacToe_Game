@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.start-question {
+    max-width: 80%;
+    height: 100vh;
+    margin: 0px auto;
+    padding-top: 50px ;
+    color: blue;
+    z-index: -1;
+    display: none;
+
+}
+
+body, html {
+    max-width: 80v;
+    background-color: wheat;
+}
+
+.container {
+    font-family: monospace;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.select-mode {
+    color: chartreuse;
+    padding: 20px;
+    border: 1px solid brown;
+    max-width: 70%;
+    margin: 50px auto;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.select-mode button {
+    padding: 15px;
+    display: block;
+    min-width: 100% ;
+    margin: 20px auto;
+    color: green;
+    border: 2px solid green;
+    font-weight: 900;
+}
+
+.select-mode button:hover {
+    background-color: green;
+    color: white;
+
+}
+
+.game-mode {
+    max-width: 80%;
+    border: 2px solid;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.cont {
+    padding: 20px 25px;
+    border: 1px solid red;
+}
+
+.play-button {
+    display: flex;
+    border: 1px solid green;
+    padding: 20px;
+}
+
