@@ -7,39 +7,102 @@
     <link rel="stylesheet" href="tic-tac-toe.css">
 </head>
 <body>
+    <div class="main-body">
 
-    <div class="start-question">
-        <div class="container">
-            <h1>
-                Welcome to Olakunle Tic Tac Toe Game
-            </h1>
-            
-            <div class="select-mode">
-                <h1> Selection Mode</h1>
-                <button> PLAYER VS COMPUTER </button>
-                <button> PLAYER VS PLAYER </button>
-    
+        <div class="start-question">
+            <div class="container">
+                <h1>
+                    Welcome to Olakunle Tic Tac Toe Game
+                </h1>
+                
+                <div class="select-mode">
+                    <h1>Select Mode</h1>
+                    <button id="oops"> PLAYER VS COMPUTER </button>
+                    <h6 id="msg"> </h6>
+                    <button id="start"> PLAYER VS PLAYER </button>
+        
+                </div>
+
+            </div>
+        </div>
+
+        <div class="marker" id="marker">
+            <div class="marker-container">
+                <h1>ENTER YOUR NAME</h1>
+                <p class="inf">
+                    (PLease Note that the First Letter of Your Name will be Used as Your Marker)
+                </p>
+                <div class="inp-cont">
+                    <div class="inp" >
+                        <input type="text" id="inp1" placeholder="Player 1 enter your name">
+                        <h3>Player One </h3>
+                    </div>
+                    <div class="inp" >
+                        <input type="text" id="inp2" placeholder="Player 2 enter your name">
+                        <h3>Player Two </h3>
+                    </div>
+        
+                </div>
+                <p id="warn"></p>
+                <button class="sec-lev" id="seclev" onclick="enterGame()">ENTER GAME</button>
+            </div>
+        </div>
+
+        <div class="game-mode" id="game-mode">
+        <div class="score">
+            <h1 class="anime"> SCORE BOARD</h1>
+            <div class="round">
+                ROUND: <span>0</span>
             </div>
 
+            <div class="col">
+                <div class="col-6 p1n ">
+                    <h3></h3>
+                    <span class="p1-score">&nbsp; 0</span>
+                </div>
+                <div class="col-6 p2n ">
+                    <h3></h3>
+                    <span class="p2-score">&nbsp; 0</span>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <div class="game-mode">
-
-        <h1> TIC TAC</h1>
+        
         <div class="cont">
             <div class="play-button">
-                <button> A Value Here</button>
-                <button> A Value Here</button>
-                <button> A Value Here</button>
-                <button> A Value Here</button>
-                <button> A Value Here</button>
-    
+                <button id="game-a" onclick="myfunc1(); gaming_func()"></button>
+                <button id="game-b" onclick="myfunc2(); gaming_func()"></button>
+                <button id="game-c" onclick="myfunc3(); gaming_func()"></button>
+                <button id="game-d" onclick="myfunc4(); gaming_func()"></button>
+                <button id="game-e" onclick="myfunc5(); gaming_func()"></button>
+                <button id="game-f" onclick="myfunc6(); gaming_func()"></button>
+                <button id="game-g" onclick="myfunc7(); gaming_func()"></button>
+                <button id="game-h" onclick="myfunc8(); gaming_func()"></button>
+                <button id="game-i" onclick="myfunc9(); gaming_func()"></button>  
             </div>
         </div>
+        <h3 class="info"></h3>
 
+        <div class="gg">
+            <button class="star-but anime"> Start Game</button>
+            <button class="res-but">Reset Game</button>
+        </div>
 
+        </div>
     </div>
     
+    <div class="screensmall">
+        <h1>
+            Screen Too Small Cannot Display Page
+        </h1>
+        <h5>
+            Try a Wider Screen
+        </h5>
+    </div>
 </body>
+    
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="tic-tac-toe.js"></script>
+
+
 </html>
