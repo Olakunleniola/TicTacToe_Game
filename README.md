@@ -4,4 +4,4 @@ This is a simple Tic Tac Toe game.
 
 I created this to test my new knowledge in Javascripts, html and css
 
-Overall, it is a fungame Game
+Overall, it is a fungame
